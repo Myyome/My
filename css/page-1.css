@@ -1,0 +1,24 @@
+
+.item-1 .word>span:first-child {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    text-shadow: 5px -2px 8px #151414;
+}
+.item-1 .word>span.hidden-xs,
+.item-1 .word>span.col-xs-12{
+    text-shadow: 9px -2px 30px #000;
+}
+
+.word>span:nth-child(1),
+.word>span:nth-child(2){
+    display: inline-block;
+    -webkit-animation: fadeInDownBig 2s ease;
+    animation: fadeInDownBig 2s ease;
+}
+
+.word p{
+    -webkit-animation: p-fly 2s ease;
+    animation: p-fly 2s ease;
+}
+
